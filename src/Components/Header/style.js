@@ -17,7 +17,8 @@ export const Container = styled.header`
     color: #222;
   }
   hr {
-    /* color: ${({ theme }) => theme.colors.primary.grey}; */
+    color: ${({ theme }) => theme.colors.primary.lighter};
+    background: black;
     width: 5px;
     height: 50px;
   }
