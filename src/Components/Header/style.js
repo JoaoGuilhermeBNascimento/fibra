@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 48px;
+  margin-top: 40px;
   align-items: center;
   justify-content: space-between;
   border: 2px solid #a2a2a2;
@@ -15,6 +14,7 @@ export const Container = styled.header`
 
   h3 {
     color: #222;
+    margin-right: 4px;
   }
   hr {
     color: ${({ theme }) => theme.colors.primary.lighter};

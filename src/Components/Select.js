@@ -5,15 +5,17 @@ export default styled.select`
   border: none;
   max-width: 300px;
   background: #fff;
-  border: 2px solid #fff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
-  height: 52px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  height: 32px;
   border-radius: 4px;
   outline: none;
+  /* outline-color: ${({ theme }) => theme.colors.gray[200]}; */
   padding: 0 16px;
+  margin-top: 8px;
+  margin-left: 4px;
   font-size: 16px;
   transition: border-color 0.2s ease-in-out;
-  /* appearance: none; */
 
   &:focus {
     border-color: ${({ theme }) => theme.colors.gray[900]};

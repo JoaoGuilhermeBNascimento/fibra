@@ -4,7 +4,7 @@ export const Container = styled.div`
   color: #222;
 
   h3 {
-    padding: 20px 0;
+    margin-top: 16px;
   }
 `;
 
@@ -18,14 +18,16 @@ export const Input = styled.textarea`
 export const SecondInput = styled.input`
   display: flex;
   width: 300px;
-  padding: 0 16px;
+  height: 24px;
+  margin-right: 24px;
   border: 1px solid ${({ theme }) => theme.colors.gray[900]};
 `;
 export const Box = styled.div`
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  border: 2px solid ${({ theme }) => theme.colors.gray[200]};
+  align-items: center;
+
+  border: 1px solid ${({ theme }) => theme.colors.gray[900]};
 
   hr {
     color: ${({ theme }) => theme.colors.gray[200]};
@@ -33,5 +35,14 @@ export const Box = styled.div`
     width: 5px;
     height: 50px;
     margin: 5px;
+  }
+
+  ul {
+    margin-left: 8px;
+  }
+  li {
+    margin-left: 24px;
+    margin-top: 16px;
+    list-style: none;
   }
 `;
