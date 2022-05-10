@@ -38,7 +38,7 @@ export default function Objectform() {
         <ul>
           <p>
             {" "}
-            As despesas provenientes para o XXXXXXXXX serão apropriadas da
+            As despesas provenientes para o XxXXxxXxX serão apropriadas da
             seguinte forma
           </p>
           <li>
@@ -92,7 +92,7 @@ export default function Objectform() {
       <Box>
         <ul>
           <li>
-            7.1 Gestor do instrumento Contratual :
+            <p>7.1 Gestor do instrumento Contratual :</p>
             <SecondInput type="text" />
           </li>
           <li>
@@ -100,7 +100,7 @@ export default function Objectform() {
             <SecondInput type="text" />
           </li>
           <li>
-            7.3 Fiscal(is) do Suplente(s) do Instrumento Contratual:
+            <p> 7.3 Fiscal(is) do Suplente(s) do Instrumento Contratual:</p>
             <SecondInput type="text" />
           </li>
         </ul>

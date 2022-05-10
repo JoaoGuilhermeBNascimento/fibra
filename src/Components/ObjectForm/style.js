@@ -20,6 +20,7 @@ export const SecondInput = styled.input`
   width: 300px;
   height: 24px;
   margin-right: 24px;
+  border-radius: 6px;
   border: 1px solid ${({ theme }) => theme.colors.gray[900]};
 `;
 export const Box = styled.div`

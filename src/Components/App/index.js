@@ -4,12 +4,15 @@ import { ThemeProvider } from "styled-components";
 import DefaultThemes from "../../Assets/style/themes/default";
 import Objectform from "../ObjectForm";
 
+import DateForm from "../Footer";
+
 export default function App() {
   return (
     <ThemeProvider theme={DefaultThemes}>
       <Container>
         <Header />
-        <Objectform/>
+        <Objectform />
+        <DateForm/>
       </Container>
     </ThemeProvider>
   );
