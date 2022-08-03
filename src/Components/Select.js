@@ -6,7 +6,7 @@ export default styled.select`
   max-width: 300px;
   background: #fff;
   border: 1px solid #fff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.019);
   height: 32px;
   border-radius: 4px;
   outline: none;
@@ -15,9 +15,9 @@ export default styled.select`
   margin-top: 8px;
   margin-left: 4px;
   font-size: 16px;
-  transition: border-color 0.2s ease-in-out;
+  transition: border-color 1s ease-in-out;
 
   &:focus {
-    border-color: ${({ theme }) => theme.colors.gray[900]};
+    border-color: ${({ theme }) => theme.colors.gray[200]};
   }
 `;
