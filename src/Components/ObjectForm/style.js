@@ -9,6 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Input = styled.textarea`
+  display: flex;
   max-width: 100%;
   width: 770px;
   height: 150px;
